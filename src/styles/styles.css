@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  --gunmetal: #30343fff;
+  --ghost-white: #fafaffff;
+  --mint: #d1ffd1;
+  --delft-blue: #273469ff;
+  --space-cadet: #1e2749ff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: var(--gunmetal);
+  color: var(--ghost-white);
+  font-family: "Roboto";
+  font-weight: bolder;
+  height: 100%;
+  overflow: hidden;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+.mainContainer .headerContainer {
+  cursor: default;
+  height: 7vh;
+  letter-spacing: 2px;
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+}
+.mainContainer .headerContainer h2 {
+  padding-top: 32px;
+  transition: all 0.1s ease;
+}
+.mainContainer .gameContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 2vmin;
+  gap: 2vmin;
+}
+.mainContainer .gameContainer .AlgSelectionContainer {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 4vw;
+}
+.mainContainer .gameContainer .boardContainer {
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1vw;
+}
+.mainContainer .gameContainer .boardContainer .square {
+  width: 100%;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainContainer .gameContainer .boardContainer .square .squareInput {
+  align-items: center;
+  text-align: center;
+  width: 3.5em;
+  height: 3.5em;
+  font-size: 2em;
+  background-color: var(--delft-blue);
+  color: var(--ghost-white);
+  border: 1px solid var(--ghost-white);
+  border-radius: 0.3em;
+}
+
+.btn {
+  padding: 0.6em 0.9em;
+  cursor: pointer;
+  border-radius: 0.3em;
+  color: var(--ghost-white);
+  background-color: var(--space-cadet);
+  letter-spacing: 1.6px;
+  font-weight: bold;
+  font-family: "Roboto";
+  border: solid 1.8px var(--ghost-white);
+  transition: all 0.3s ease;
+}
+
+.btn:hover,
+.btn.selected {
+  background-color: var(--delft-blue);
+  color: var(--mint);
+  font-size: 1.1em;
+}
+
+.headerContainer h3:hover {
+  color: var(--mint);
+  font-size: 1.3em;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input:focus {
+  outline: none;
+}
+
+#zero input {
+  display: none;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#active {
+  background-color: var(--mint);
+  color: var(--delft-blue);
+}/*# sourceMappingURL=styles.css.map */
