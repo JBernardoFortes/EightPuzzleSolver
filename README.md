@@ -18,5 +18,6 @@ npm run dev
 <a href='https://jbernardofortes.github.io/EightPuzzleSolver/'>
 <img src='https://imgur.com/50qZxs8.jpg'>
 
-**LINK** <a/>
+**LINK** 
+</a>
 
