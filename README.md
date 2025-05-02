@@ -17,7 +17,7 @@ npm run dev
 ## [CTRL + Click ] or [ CMD + Click ] So you wont be redirected
 
 <a href='https://jbernardofortes.github.io/EightPuzzleSolver/'>
-<img src='https://imgur.com/50qZxs8.jpg'>
+<img src='https://imgur.com/gwTHYRY.jpg'>
 </br>
 <strong> LINK </strong>
 </a>
