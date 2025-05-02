@@ -14,4 +14,4 @@ npm install
 npm run dev
 ```
 
-<img src='https://imgur.com/a/UlcUj5I.jpg'>
+<img src='https://imgur.com/50qZxs8.jpg'>
