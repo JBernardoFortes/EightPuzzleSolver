@@ -1,9 +1,12 @@
-# 8 Puzzle Solver
+#  8 Puzzle Solver
 
-## npm i 
-## npm run dev
+Projeto interativo para resolver o clássico **8-puzzle** utilizando diferentes algoritmos de busca. Desenvolvido com **React** e animação passo a passo da solução.
 
-## Project build to solve 8 puzzle game with different kinds of algorithms ( BFS , DFS , Greedy and A* )
+---
 
-The heuristic of Greedy and A* is Manhattan Distance
+##  Instalação
+
+```bash
+npm install
+npm run dev
 
