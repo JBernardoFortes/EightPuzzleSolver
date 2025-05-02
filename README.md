@@ -15,3 +15,5 @@ npm run dev
 ```
 
 <img src='https://imgur.com/50qZxs8.jpg'>
+
+<a href='https://jbernardofortes.github.io/EightPuzzleSolver/'> Link <a/>
